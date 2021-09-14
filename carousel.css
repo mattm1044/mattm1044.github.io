@@ -29,6 +29,7 @@ body {
 
   .carousel-img {
     width: 80%;
+    border-radius: 5px;
   }
   
   /* Featurettes
@@ -45,7 +46,10 @@ body {
     line-height: 1;
     letter-spacing: -.05rem;
   }
-  
+
+  .lead {
+      margin-top: 1rem;
+  }
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
