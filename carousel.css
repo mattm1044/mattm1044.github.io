@@ -24,12 +24,11 @@ body {
   .carousel-item {
     height: 40rem;
     margin-top: 2rem;
-    margin-bottom: 1rem;
   }
 
   .carousel-img {
-    width: 80%;
     border-radius: 5px;
+    width: 75%;
   }
   
   /* Featurettes
