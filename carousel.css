@@ -22,13 +22,14 @@ body {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 40rem;
+    height: fit-content;
     margin-top: 2rem;
+    margin-bottom: 4rem;
   }
 
   .carousel-img {
     border-radius: 5px;
-    width: 75%;
+    width: auto;
   }
   
   /* Featurettes
