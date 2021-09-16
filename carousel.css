@@ -30,7 +30,15 @@ body {
     border-radius: 8px;
     width: auto;
   }
+
+  .carousel-control-next {
+    padding-left: 8%;
+  }
   
+  .carousel-control-prev {
+    padding-right: 8%;
+  }
+
   /* Featurettes
   ------------------------- */
   
