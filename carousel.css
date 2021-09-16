@@ -22,13 +22,12 @@ body {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: fit-content;
     margin-top: 2rem;
     margin-bottom: 4rem;
   }
 
   .carousel-img {
-    border-radius: 5px;
+    border-radius: 8px;
     width: auto;
   }
   
@@ -49,6 +48,25 @@ body {
 
   .lead {
       margin-top: 1rem;
+  }
+
+  /* Skills
+  ------------------------- */
+
+  .skill-list {
+    margin-left: -3rem;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+  
+  .skill-box { 
+    font-weight: 800;
+    border: 4px solid deepskyblue;
+    border-radius: 20px;
+    color: deepskyblue;
+    margin: 1rem;
+    padding: 7px;
   }
   
   /* RESPONSIVE CSS
