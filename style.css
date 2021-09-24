@@ -31,12 +31,30 @@ body {
     width: auto;
   }
 
+  .carousel-vid {
+    border-radius: 8px;
+    width: 93%;
+  }
+
   .carousel-control-next {
     padding-left: 8%;
   }
   
   .carousel-control-prev {
     padding-right: 8%;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vertical-center {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
   }
 
   /* Featurettes
