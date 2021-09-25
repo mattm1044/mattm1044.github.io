@@ -50,13 +50,6 @@ body {
     align-items: center;
   }
 
-  .vertical-center {
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%)
-  }
-
   /* Featurettes
   ------------------------- */
   
