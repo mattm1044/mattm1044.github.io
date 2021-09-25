@@ -9,8 +9,14 @@
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    color: rgb(247, 247, 255);
+    background-color: rgb(4, 139, 168)
   }
-  
+
+.container-fluid {
+  padding-left: 10%;
+  padding-right: 10%;
+}
   
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
