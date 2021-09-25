@@ -10,7 +10,7 @@ body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: rgb(247, 247, 255);
-    background-color: rgb(4, 139, 168)
+    background-color: rgb(4, 139, 168);
   }
 
 .container-fluid {
@@ -92,6 +92,19 @@ body {
     color: rgb(110, 235, 131);
     margin: 1rem;
     padding: 7px;
+  }
+
+  /* Github and Bitbucket Button
+  ------------------------- */
+  .btn, .btn:hover, .btn:active, .btn:focus{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: none !important;
+    font-size: 16px;
+    color: rgb(247, 247, 255) !important;
+    outline: 0 !important;
+    box-shadow: none !important;
   }
   
   /* RESPONSIVE CSS
