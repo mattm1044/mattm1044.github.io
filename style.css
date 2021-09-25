@@ -52,6 +52,7 @@ body {
 
   .center {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -96,7 +97,7 @@ body {
 
   /* Github and Bitbucket Button
   ------------------------- */
-  .btn, .btn:hover, .btn:active, .btn:focus{
+  .btn-custom, .btn-custom:hover, .btn-custom:active, .btn-custom:focus{
     display: flex;
     justify-content: center;
     background-color: transparent;
@@ -105,6 +106,15 @@ body {
     color: rgb(247, 247, 255) !important;
     outline: 0 !important;
     box-shadow: none !important;
+  }
+
+  .btn-resume{
+    margin-bottom: 2rem;
+  }
+
+  .btn-resume:hover{
+    font-size: 16px;
+    color: rgb(4, 139, 168) !important;
   }
   
   /* RESPONSIVE CSS
