@@ -62,7 +62,7 @@ body {
   
   .featurette-divider {
     margin: 2rem 0; /* Space out the Bootstrap <hr> more */
-    background-color: slategray;
+    background-color: rgb(126, 193, 212);
   }
   
   /* Thin out the marketing headings */
@@ -88,9 +88,9 @@ body {
   
   .skill-box { 
     font-weight: 800;
-    border: 4px solid deepskyblue;
+    border: 4px solid rgb(110, 235, 131);
     border-radius: 20px;
-    color: deepskyblue;
+    color: rgb(110, 235, 131);
     margin: 1rem;
     padding: 7px;
   }
